@@ -12,4 +12,7 @@ func main() {
 	fmt.Println(len(myslice2))
 	fmt.Println(cap(myslice2))
 	fmt.Println(myslice2)
+
+	 var a []int = make([]int, 3, 10)
+	 fmt.Println(a)
 }
